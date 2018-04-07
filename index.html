@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Program Simulasi</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.com/libraries/Chart.js"></script>
+		<script src="customjs.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="page-header">
+				<h3>Simulasi Produksi dan Distribusi Pelayanan Permintaan Sarung Tenun Dengan Metode Monte Carlo</h3>
+			</div>
+			<div class="row">
+				<div class="col-sm-10">
+					<form method="post" action="#">
+						<table class="table table-bordered">
+							<thead>
+								<caption>Data Produksi dan Permintaan Produk</caption>
+								<tr>
+									<th rowspan="2"><h4>Minggu ke-</h4></th>
+									<th colspan="2"><h4>Betel Terbang</h4></th>
+									<th colspan="2"><h4>Asultan</h4></th>
+									<th colspan="2"><h4>Rayden</h4></th>
+									<th rowspan="2"><h4>Aksi</h4></th>
+								</tr>
+								<tr>
+									<th>Produksi</th>
+									<th>Permintaan</th>
+									<th>Produksi</th>
+									<th>Permintaan</th>
+									<th>Produksi</th>
+									<th>Permintaan</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td><input type="text" class="form-control" name="BT-pro1"></td>
+									<td><input type="text" class="form-control" name="BT-per1"></td>
+									<td><input type="text" class="form-control" name="AS-pro1"></td>
+									<td><input type="text" class="form-control" name="AS-per1"></td>
+									<td><input type="text" class="form-control" name="RA-pro1"></td>
+									<td><input type="text" class="form-control" name="RA-per1"></td>
+									<td><button class="btn btn-warning"><span class="glyphicon glyphicon-minus-sign"></span></button></td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="8">
+										<button class="btn btn-block btn-lg btn-primary" id="tambahdata">Tambah Data
+										 <span class="glyphicon glyphicon-plus-sign"></span>
+										</button>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+<html>
